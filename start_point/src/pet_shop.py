@@ -8,10 +8,15 @@ def get_total_cash(cash):
     return cash["admin"]["total_cash"]
 
 
-def add_or_remove_cash(total_new_cash ,cash ):
-    total_new_cash["admin"]["total_cash"] +=cash
+def add_or_remove_cash(total_new_cash ,cash):
+    total_new_cash["admin"]["total_cash"] += cash
     return total_new_cash
     
+
+def get_pets_sold(pets_sold):
+    return pets_sold["admin"]["pets_sold"]
+    
+
 
 
    
